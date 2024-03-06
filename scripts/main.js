@@ -5,7 +5,7 @@
 //   return async () => {
 //     if (!cachedData) {
 //       cachedData = await fetch(
-//         `http://api.weatherapi.com/v1/forecast.json?key=9c460b6effe04bb588065926242602&q=${kraj}&days=3&aqi=no&alerts=no`,
+//         `http://api.weatherapi.com/v1/forecast.json?key=APIkey&q=${kraj}&days=3&aqi=no&alerts=no`,
 //         { mode: "cors" }
 //       );
 //       cachedData = await cachedData.json();
